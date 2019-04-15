@@ -1,0 +1,23 @@
+{
+  "data": {
+    "vars": [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+    "datasize": 46,
+    "testsize": 1,
+    "lag": 6,
+    "ahead": 1
+  },
+  "arch": {
+    "neurons": 16,
+    "rnn": "LSTM",
+    "drop": 0.0,
+    "nlayers": 2,
+    "activation": "relu",
+    "activation_r": "hard_sigmoid"
+  },
+  "training": {
+    "batch": 50,
+    "epochs": 200,
+    "optimizer": "nadam",
+    "lrate": 0.001
+  }
+}
